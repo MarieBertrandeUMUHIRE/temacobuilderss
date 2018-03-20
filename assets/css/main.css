@@ -1595,7 +1595,7 @@
 	}
 
 	body, input, select, textarea {
-		font-family: "Lato", sans-serif;
+		font-family: FontAwesome;
 		font-size: 15pt;
 		font-weight: 300;
 		line-height: 2;
@@ -3105,7 +3105,7 @@
 
 	#number{
 		color:white;
-		font-size: 10pt;
+		font-size: 12pt;
 		margin-bottom: -20pt;
 		margin-top: 10pt;
 	}
@@ -3387,13 +3387,15 @@
 		color: #f2a3a5;
 		padding: 13em 0 11em 0;
 		background-color: #0c0c0c;
-		background-image: url("../../images/team.jpg");
+		background-image: url("../../images/product.jpg");
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: 15% left;
 		text-align: left;
 		position: relative;
 		z-index: 9999;
+		height: 48vw;
+
 	}
 
 		#banner input, #banner select, #banner textarea {
@@ -3988,5 +3990,102 @@
 
 		}
 
+		.slagon {
+			color: black;
+			font-size: 20vw;
+		}
+
 		/*shoooow*/
 
+
+.our-product .product-row {
+  margin-left: -40vw;
+  margin-right: -40vw;
+  width: 40vw;
+}
+
+.our-product .product-wrap {
+  padding: 0 40px;
+}
+
+.our-product .container-fluid {
+  padding: 0 50px;
+}
+
+.product-img img {
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  width: 30vw;
+  overflow: hidden;
+  height: 25vw;
+ 
+}
+
+.product-member,
+.product-img {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 1vw;
+  margin-left: 1vw;
+  margin-right: -1vw;
+
+}
+
+.description{
+	margin-left: 5vw;
+	font-size: 2vw;
+	word-spacing: 0.2vw;
+	font-weight: 0.5vw;
+
+}
+
+.product-title {
+  margin: 30px 0 7px;
+  color: white;
+  font-size:2vw;
+}
+
+.overlay {
+  background-color: rgba(20,20,20,.7);
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.product-details {
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  padding: 5%;
+  overflow: hidden;
+  width: 100%;
+  z-index: 2;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  font-size: 2vw;
+}
+
+.product-details p {
+  color: #fff;
+  font-size: 2vw;
+}
+
+.product-img:hover .product-details {
+  opacity: 1;
+  margin-top: -80px;
+}
+
+.product-img:hover .overlay {
+  opacity: 1;
+}
