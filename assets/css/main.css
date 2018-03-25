@@ -3976,6 +3976,8 @@
 				font-family: FontAwesome;
 				font-weight: normal;
 				word-spacing: 5pt;
+				margin-left: 1.5vw;
+				margin-bottom: -3vw;
 
 			}
 
@@ -3998,6 +4000,13 @@
 		.slagon {
 			color: black;
 			font-size: 20vw;
+		}
+
+		.berry{
+
+		font-size: 14px;
+		margin-left: 8vw;
+		margin-top: 100vw;
 		}
 
 		/*shoooow*/
