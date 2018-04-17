@@ -4128,6 +4128,7 @@
     line-height: 50px;
     border: 3px solid transparent;
     transition: all .4s ease-in;
+    font-family: FontAwesome;
 }
 
 .box-tittle {
